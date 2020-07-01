@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+VERSION=0.1
+
+docker image tag pip-compile:${VERSION} anubhavcodes/pip-compile:${VERSION}
+docker image push anubhavcodes/pip-compile:${VERSION}
